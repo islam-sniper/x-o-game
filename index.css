@@ -1,5 +1,9 @@
 body{
-    background-image: url(a.png);
+    background-color: rgb(32, 128, 123);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }    
 
 .game{
