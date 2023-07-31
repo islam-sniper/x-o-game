@@ -51,3 +51,8 @@ function game(id){
     }
     winner()
 }
+function rel_oad(){
+    title.innerHTML = 'reload now';
+    setInterval(function(){title.innerHTML += '.'},500);
+    setTimeout(function(){location.reload()},2000);
+}
